@@ -1,6 +1,9 @@
 // creo il click
+// salvo elementi in variabili
+const lampadina = document.getElementById('lampadina');
+const bottone = document.getElementById('bottone');
 
-document.getElementById('bottone').addEventListener('click', function() {
+bottone.addEventListener('click', function() {
     console.log('Cliccato!');
-    document.getElementById('lampadina').src = 'img/yellow_lamp.png';
+    lampadina.src = 'img/yellow_lamp.png';
 });
