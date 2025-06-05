@@ -11,10 +11,7 @@ const bottone = document.getElementById('bottone');
 //devo fare anche lo spegnimento
 
 bottone.addEventListener('click', function() {
-    console.log('Cliccato!');
-    // provo ad usare if
-
-   if (bottone.innerHTML === 'Accendi') {
+     if (bottone.innerHTML === 'Accendi') {
         lampadina.src = 'img/yellow_lamp.png';
         bottone.innerHTML = 'Spegni';
     } else {
